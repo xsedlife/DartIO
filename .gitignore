@@ -1,0 +1,17 @@
+# Ignoruj pliki danych (są duże i poufne)
+data/
+*.csv
+*.xlsx
+*.json
+
+# Ignoruj pliki tymczasowe Pythona (kompilowane)
+__pycache__/
+*.pyc
+
+# Ignoruj środowisko wirtualne (o tym za chwilę)
+.venv/
+env/
+venv/
+
+# Ignoruj ustawienia lokalne VS Code
+.vscode/
